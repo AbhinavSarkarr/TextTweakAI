@@ -16,7 +16,7 @@ def load_vocabulary():
         word_freq (Counter): A counter object with word frequencies from the vocabulary.
         probs (dict): A dictionary with the probability of each word based on its frequency.
     """
-    file_paths = ['Vocabulary/book.txt', 'Vocabulary/alice_in_wonderland.txt', 'Vocabulary/big.txt', 'Vocabulary/shakespeare.txt']
+    file_paths = ['Vocabulary/book.txt', 'Vocabulary/alice_in_wonderland.txt', 'Vocabulary/big.txt', 'Vocabulary/shakespeare.txt']  #you can get these files from the corpus resouces given in the readme file 
     words = []
     for file_path in file_paths:
         with open(file_path, 'r') as f:
